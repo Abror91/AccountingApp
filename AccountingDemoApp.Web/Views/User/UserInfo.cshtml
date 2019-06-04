@@ -1,0 +1,31 @@
+﻿@model AccountingDemoApp.Web.Models.UserViewModel
+
+@{
+    ViewBag.Title = "UserInfo";
+}
+
+<h2>Данные Пользователя</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Deposit)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Deposit)
+        </dd>
+
+    </dl>
+</div>
+@Html.ActionLink("Пополнить Счет", "DepositMoney", new { id = Model.Id }, new { @class = "btn btn-primary" })
+@Html.ActionLink("Добавить Расход", "Create", "Expenditure", null, new { @class = "btn btn-success" })

@@ -1,0 +1,22 @@
+﻿@model AccountingDemoApp.Web.Models.DepositViewModel
+
+@{
+    ViewBag.Title = "DepositMoney";
+}
+
+<h2>DepositMoney</h2>
+@using (Html.BeginForm("DepositMoney", "User", new { userId = ViewBag.UserId }, FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.LabelFor(model => model.Amount, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Amount, new { htmlAttributes = new { @class = "form-control", type = "number" } })
+            @Html.ValidationMessageFor(model => model.Amount, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-success">Пополнить</button>
+    </div>
+}
+
+

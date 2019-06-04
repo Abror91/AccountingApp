@@ -1,0 +1,62 @@
+﻿@model IEnumerable<AccountingDemoApp.Web.Models.ExpenditureViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<br />
+<br />
+
+@using (Html.BeginForm("Index", "Expenditure", FormMethod.Get))
+{
+    <fieldset style="margin-bottom:25px;">
+        <legend>Период</legend>
+        @Html.Label("StartDate", "Start Date:")
+        <input class="startdate" id="startdate" name="startDate" type="date" value="">
+        @Html.Label("enddate", "End Date:")
+        <input class="startdate" id="enddate" name="endDate" type="date" value="">
+        <input type="submit" value="Apply" />
+    </fieldset>
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ExpenseTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cost)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Comment)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CategoryName)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ExpenseTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cost)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Comment)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryName)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>

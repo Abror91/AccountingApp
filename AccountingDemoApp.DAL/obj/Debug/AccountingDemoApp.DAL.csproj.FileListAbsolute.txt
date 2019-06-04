@@ -1,0 +1,17 @@
+C:\Users\Администратор\source\repos\AccountingDemoApp\AccountingDemoApp.DAL\obj\Debug\AccountingDemoApp.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Администратор\source\repos\AccountingDemoApp\AccountingDemoApp.DAL\obj\Debug\AccountingDemoApp.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Администратор\source\repos\AccountingDemoApp\AccountingDemoApp.DAL\bin\Debug\AccountingDemoApp.DAL.dll.config
+C:\Users\Администратор\source\repos\AccountingDemoApp\AccountingDemoApp.DAL\bin\Debug\AccountingDemoApp.DAL.dll
+C:\Users\Администратор\source\repos\AccountingDemoApp\AccountingDemoApp.DAL\bin\Debug\AccountingDemoApp.DAL.pdb
+C:\Users\Администратор\source\repos\AccountingDemoApp\AccountingDemoApp.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Администратор\source\repos\AccountingDemoApp\AccountingDemoApp.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Администратор\source\repos\AccountingDemoApp\AccountingDemoApp.DAL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Администратор\source\repos\AccountingDemoApp\AccountingDemoApp.DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Администратор\source\repos\AccountingDemoApp\AccountingDemoApp.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Администратор\source\repos\AccountingDemoApp\AccountingDemoApp.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Администратор\source\repos\AccountingDemoApp\AccountingDemoApp.DAL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Администратор\source\repos\AccountingDemoApp\AccountingDemoApp.DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Администратор\source\repos\AccountingDemoApp\AccountingDemoApp.DAL\obj\Debug\AccountingDemoApp.DAL.dll
+C:\Users\Администратор\source\repos\AccountingDemoApp\AccountingDemoApp.DAL\obj\Debug\AccountingDemoApp.DAL.pdb
+C:\Users\Администратор\source\repos\AccountingDemoApp\AccountingDemoApp.DAL\obj\Debug\AccountingDemoApp.DAL.Migrations.InitialCreate.resources
+C:\Users\Администратор\source\repos\AccountingDemoApp\AccountingDemoApp.DAL\obj\Debug\AccountingDemoApp.DAL.csproj.GenerateResource.Cache

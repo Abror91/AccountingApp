@@ -1,0 +1,35 @@
+﻿@model IEnumerable<AccountingDemoApp.Web.Models.ReportViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<br />
+<br />
+@using (Html.BeginForm("Index", "Report", FormMethod.Get))
+{
+    <div class="form-group">
+        <label class="control-label" for="searchByYear">Год</label>
+        <input id="searchByYear" name="filterByYear" placeholder="@DateTime.Now.Year" />
+        <button style="display:inline-block;" class="btn btn-primary" type="submit">Искать</button>
+    </div>
+}
+<table class="table table-bordered">
+    <tr>
+        <th>Месяц</th>
+        @foreach (var c in ViewBag.Cats)
+        {
+            <th>@c</th>
+        }
+    </tr>
+    @foreach (var i in Model)
+    {
+        <tr>
+            <td>@i.Month.Name</td>
+            @foreach (var item in i.MainData)
+            {
+                <td>@item.Cost</td>
+            }
+        </tr>
+    }
+</table>
